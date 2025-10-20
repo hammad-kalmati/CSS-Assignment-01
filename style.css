@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 220, 224);
+}
+#head{
+    color: #0866FF;
+    font-family:  Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.text{
+    text-align: center;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    font-size: 22px;
+}
+.box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      width: 360px;
+      height: 370px;
+      box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
+      10px 10px 15px rgba(0,0,0,0.1);
+      border-radius: 10px; 
+      margin-top: 25px; 
+      margin-bottom: 15px; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+} 
+
+.both{
+    font-size: 20px;
+}
+.bot{
+    font-size: 18px;
+}
+.last{
+    color: #0866FF;
+}
+hr{
+    border: 1px solid gray;
+    width: 320px;
+    margin: 20px 0px;
+}
+p a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+
